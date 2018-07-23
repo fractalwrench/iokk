@@ -21,15 +21,15 @@ val WAT = byteArrayOf(72, 101, 54 * 2, (`_^` * 4).toByte(), `)`, 44, 32, 87, `)`
 println(String(WAT))
 ```
 
-Obviously, as that is just an example, actual submissions should be much, much more incomprehensible.
+Obviously, as that is just an example. Real submissions should be much, much more incomprehensible.
 
 ## Submitting a solution
 
 Fork the repository, [read the current challenge](https://github.com/fractalwrench/iokk/blob/master/src/main/kotlin/com.fractalwrench.iokk/n01/n01HelloWorld.kt), and pass the tests with your obfuscated code. 
 
-When you're happy with your solution, open a PR with a *copy* of the file, with your GitHub username as a suffix for the file, class, and method names. For example, `n01HelloWorld` would become `n01HelloWorld_<username>`.
+When you're happy with your solution, open a PR with a **copy** of the file, with your GitHub username as a suffix for the file, class, and method names. For example, `n01HelloWorld` would become `n01HelloWorld_<username>`.
 
-Please document how your monstrosity works using KDoc. An example of a submission is shown [here](src/main/kotlin/com/fractalwrench/iokk/n01/n01HelloWorld_fractalwrench.kt)
+Please document how your monstrosity works using KDoc. An example of a submission is shown [here](src/main/kotlin/com/fractalwrench/iokk/n01/n01HelloWorld_fractalwrench.kt).
 
 ## Judging
 
@@ -45,7 +45,9 @@ After judging, the next challenge will then be opened for submissions. Stay tune
 
 ## Improving the contest
 
-Open an issue if you have a suggestion for a new challenge, or think the contest could be better by changing something. It's early days and I'm open to ideas.
+Open an issue if you have a suggestion for a new challenge, or think the contest could be better by changing something.
+
+It's early days and I'm open to ideas.
 
 ## Hall of Infamy
 
