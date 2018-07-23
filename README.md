@@ -29,7 +29,7 @@ Fork the repository, [read the current challenge](https://github.com/fractalwren
 
 When you're happy with your solution, open a PR with a **copy** of the file, with your GitHub username as a suffix for the file, class, and method names. For example, `n01HelloWorld` would become `n01HelloWorld_<username>`.
 
-Please document how your monstrosity works using KDoc. An example of a submission is shown [here](src/main/kotlin/com/fractalwrench/iokk/n01/n01HelloWorld_fractalwrench.kt).
+Please document how your monstrosity works using KDoc. An example of a submission is shown [here](https://github.com/fractalwrench/iokk/blob/master/src/main/kotlin/com.fractalwrench.iokk/n01/n01HelloWorld_fractalwrench.kt).
 
 ## Judging
 
