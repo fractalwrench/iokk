@@ -12,7 +12,7 @@ For example, consider this innocent Hello World program:
 println("Hello World")
 ```
 
-Wouldn't you have more job security if your pull requests looked more like this?
+Wouldn't you have more job security if all your pull requests looked more like this?
 
 ```
 val `_^`: Byte = 27
@@ -21,7 +21,7 @@ val WAT = byteArrayOf(72, 101, 54 * 2, (`_^` * 4).toByte(), `)`, 44, 32, 87, `)`
 println(String(WAT))
 ```
 
-Obviously, as that is just an example. Real submissions should be much, much more incomprehensible.
+Obviously, that is just an example. Real submissions should be much, much more incomprehensible.
 
 ## Submitting a solution
 
