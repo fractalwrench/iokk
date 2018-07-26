@@ -11,7 +11,7 @@ typealias `✅` = () -> `🍏`
 /**
  * Abuse of infix functions, type aliases, and emoji lead to this awesomeness
  */
-fun ch1Solution() {
+fun ch1Solution_Naaate() {
     `🖕`().`👌`()
 }
 
