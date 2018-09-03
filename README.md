@@ -17,13 +17,18 @@ Wouldn't you have more job security if all your pull requests looked more like t
 ```
 val `_^`: Byte = 27
 val `)`: Byte = (11.1 * 10).toByte()
-val WAT = byteArrayOf(72, 101, 54 * 2, (`_^` * 4).toByte(), `)`, 44, 32, 87, `)`, 114, 27 * 4, 100, 33)
+val WAT = byteArrayOf(72, 101, 54 * 2, (`_^` * 4).toByte(),
+    `)`, 44, 32, 87, `)`, 114, 27 * 4, 100, 33)
 println(String(WAT))
 ```
 
 Obviously, that is just an example. Real submissions should be much, much more incomprehensible.
 
-## Submitting a solution
+## Previous Challenges
+
+Challenge 01: [Hello World](CH1.md)
+
+## Current Challenge
 
 Fork the repository, [read the current challenge](https://github.com/fractalwrench/iokk/blob/master/src/main/kotlin/com.fractalwrench.iokk/n01/n01HelloWorld.kt), and pass the tests with your obfuscated code. 
 
@@ -50,5 +55,7 @@ Open an issue if you have a suggestion for a new challenge, or think the contest
 It's early days and I'm open to ideas.
 
 ## Hall of Infamy
+
+Challenge 01: [Hello World](CH1.md)
 
 _Coming soon..._
