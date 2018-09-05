@@ -30,7 +30,7 @@ Challenge 01: [Hello World](CH1.md)
 
 ## Current Challenge
 
-Fork the repository, [read the current challenge](https://github.com/fractalwrench/iokk/blob/master/src/main/kotlin/com.fractalwrench.iokk/n01/n01HelloWorld.kt), and pass the tests with your obfuscated code. 
+Fork the repository, [read the current challenge](https://github.com/fractalwrench/iokk/blob/master/src/main/kotlin/com.fractalwrench.iokk/n02/n02Fibonacci.kt), and pass the tests with your obfuscated code. 
 
 When you're happy with your solution, open a PR with a **copy** of the file, with your GitHub username as a suffix for the file, class, and method names. For example, `n01HelloWorld` would become `n01HelloWorld_<username>`.
 
@@ -56,6 +56,11 @@ It's early days and I'm open to ideas.
 
 ## Hall of Infamy
 
-Challenge 01: [Hello World](CH1.md)
+### Challenge 01
+[Hello World](CH1.md)
 
-_Coming soon..._
+- [Kotlin DSL for Brainfuck](https://github.com/fractalwrench/iokk/pull/5), by [westonal](https://github.com/westonal).
+- [Emojiianal abuse](https://github.com/fractalwrench/iokk/pull/3) by [Naaate](https://github.com/Naaate) 
+- [Syntax Inversion](https://github.com/fractalwrench/iokk/pull/1) by [swankjesse](https://github.com/swankjesse)
+- [More parentheses than Lisp](https://github.com/fractalwrench/iokk/pull/4) by [machtelik](https://github.com/machtelik)
+- [Operator overloading and extension functions](https://github.com/fractalwrench/iokk/pull/2) by [jamiesanson](https://github.com/jamiesanson)
