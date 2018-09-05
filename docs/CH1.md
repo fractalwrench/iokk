@@ -18,19 +18,51 @@ We received 5 great entries for this challenge, and all the authors have been ad
 
 Our first entry is a [Kotlin DSL for Brainfuck](https://github.com/fractalwrench/iokk/pull/5), written by [westonal](https://github.com/westonal).
 
-<!-- TODO -->
+True to its name, this entry makes my head hurt trying to understand it. It abuses [operator overriding](https://kotlinlang.org/docs/reference/operator-overloading.html) to implement loops, and [extension properties](https://kotlinlang.org/docs/reference/extensions.html) to implement functions.
+
+This all adds up to create possibly the most confusing DSL ever created within Kotlin. It really has to be seen to be believed.
 
 ### Emojiianal abuse
 
-The [next entry](https://github.com/fractalwrench/iokk/pull/3) by [Naaate](https://github.com/Naaate) makes great use of Unicode emoji, which can form valid Kotlin identifiers.
+The [next entry](https://github.com/fractalwrench/iokk/pull/3) by [Naaate](https://github.com/Naaate) makes great use of Unicode emoji, which can form valid Kotlin identifiers:
 
-<!-- TODO -->
+```
+val `😘` = 42
+```
+
+[Infix functions](https://kotlinlang.org/docs/reference/functions.html#infix-notation) and [type aliases](https://kotlinlang.org/docs/reference/type-aliases.html) serve to further obfuscate the remaining code. This entry is 👌
 
 ### Syntax Inversion
 
-[This entry](https://github.com/fractalwrench/iokk/pull/1) by [swankjesse](https://github.com/swankjesse) flips the syntax of Kotlin on its head, by passing the argument first and method name last.
+[This entry](https://github.com/fractalwrench/iokk/pull/1) by [swankjesse](https://github.com/swankjesse) uses a very clever approach to flip Kotlin's on its head, by passing the argument first and method name last.
 
-<!-- TODO -->
+```
+fun ch1Solution_swankjesse() {
+  `Hello, World!`("println")
+}
+
+fun `Hello, World!`(vararg args: Any?) {
+  for (p in System.getProperties().values) {
+    for (j in p.toString().split(":")) {
+      try {
+        for (e in java.util.zip.ZipFile(j).entries()) {
+          try {
+            val n = e.name.substring(0 until e.name.length - 6).replace('/', '.')
+            val c = Class.forName(n, false, object : Any() {}.javaClass.classLoader)
+            val m = c.getDeclaredMethod(args[0].toString(), Any::class.java)
+            m.isAccessible = true
+            m.invoke(null, Exception().stackTrace[0].methodName)
+          } catch (t: Throwable) {
+          }
+        }
+      } catch (t: Throwable) {
+      }
+    }
+  }
+}
+```
+
+This works by finding the `println` method via reflection, then invoking it with the current method name, which is obtained by inspecting a stacktrace.
 
 ### More parentheses than Lisp
 [This entry](https://github.com/fractalwrench/iokk/pull/4) by [machtelik](https://github.com/machtelik) uses more parentheses than the average Lisp program, if such a thing is possible.
