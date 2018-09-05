@@ -2,7 +2,7 @@
 
 A quick recap on the rules is available [here](README.md). For the unfamiliar, the aim of the game is to write a Kotlin program that solves a relatively trivial problem, using the most convoluted solution possible.
 
-For this challenge, the program should write the string `'Hello, World!'` to System.out. In unobfuscated Kotlin, the solution would look something like this:
+For this challenge, the program should write the string `'Hello, World!'` to `System.out`. In unobfuscated Kotlin, the solution would look something like this:
 
 ```
 fun main(args: Array<String>) {

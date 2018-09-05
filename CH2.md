@@ -1,8 +1,8 @@
-# Challenge 02 - TODO
+# Challenge 02 - Fibonacci
 
 A quick recap on the rules is available [here](README.md). For the unfamiliar, the aim of the game is to write a Kotlin program that solves a relatively trivial problem, using the most convoluted solution possible.
 
-The program should print the Fibonacci sequence to System.out, to the first N numbers in the sequence.
+The program should print the Fibonacci sequence to `System.out`, to the first N numbers in the sequence.
 
 In unobfuscated Kotlin, the solution would look something like this:
 
